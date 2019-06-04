@@ -1,0 +1,13 @@
+# Comparing to Emacs, I personally prefer vi better. First of all, vi is
+# pre-installed on the computer and we can use it to do a quick edit and 
+# then quit. It would allow me to work on any machines other than mine 
+# without downloading anything. For Emacs, I had to install the package
+# from homebrew. As a beginners learining the editor tools, I did not really
+# feel that there is a difference on the speed of editing or opening the 
+# file. Secondly, for vi, I need to type "i" first to start insertion, which
+# is more friendly than Emacs when it comes to reading a scirpt or a file. 
+# When I am not writing my own script, I will be reading the file or script,
+# and vi's insertion mode prevents any accidental insertion or deletion of 
+# of the text. Moreover, Emacs shorcuts require holding the control of alt 
+# key, which makes it fairly easy to mistype something that will change 
+# the file. 
