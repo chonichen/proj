@@ -1,0 +1,7 @@
+# To create the git repository, I first created a repository called proj,
+# short for project. In the proj repository, I typed "git init" and created
+# a sub-direcotry called "week01", then "git add week01" and "git add 
+# README.md". Typed in git commit -m "first commit". At last, use "git remote
+# add origin https://github.com/chonichen/test.git", which will ask for my 
+# github account username and password, then use "git push -u origin master"
+# to push the changes in the file. 
