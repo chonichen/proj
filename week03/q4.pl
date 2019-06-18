@@ -14,5 +14,16 @@ sub generate_DNA{
         return $random_sequence;
 }
 
-print generate_DNA(15);
+sub generate_DNA_1{
+	my @argv = @_;
+	my $argc = scalar(@argv);
+	my $length = $argv[0];
+	if ($argc >1)
+	{
+		$length = int(rand($length));
+	}
+	return generate_DNA($length);
+}
+
+print generate_DNA_1(20, "lf");
 print "\n"
