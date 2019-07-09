@@ -7,6 +7,21 @@ use DBI;
 
 my $dbfile = "sequence.db";
 
+# CREATE TABLE gene (
+# gene_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+# organism_id INTEGER NOT NULL,
+# gene_name VARCHAR(255),
+# gene_sequence TEXT,
+# expression_level INTEGER,
+# start INTEGER,
+# stop INTEGER
+# );
+# CREATE TABLE organism (
+# organism_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+# organism_name VARCHAR(255),
+# tissue VARCHAR(255) 
+# );
+
 my $dsn = "dbi:SQLite:dbname=$dbfile";
 my $dbh = DBI->connect($dsn, "", "",  {
 	PrintError	=> 0,
