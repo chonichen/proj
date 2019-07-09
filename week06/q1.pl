@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#! /usr/bin/perl
 
 use strict;
 use warnings;
@@ -12,23 +12,13 @@ my $dbh = DBI->connect($dsn, "", "",  {
 	PrintError	=> 0,
 	RaiseError	=> 1,} );
 
-my $fgname = 'RPE65';
-my $sgname = 'BCO1';
+my @records = ( ['1', 'Bos taurus', 'retinal pigment epithelium' ], ['2', 'Bos taurus', 'retinal pigment epithelium' ] );
+my $query = "INSERT INTO organism (organism_id, organism_name, tissue) VALUES (?, ?, ?)";
+my $sth = $dbh->prepare($query);
 
-my $foname = 'Bos taurus';
-my $soname = 'Bos taurus';
-
-my $ftissue = 'retinal pigment epithelium';
-my $stissue = 'retinal pigment epithelium';
-
-my $fstart = '53';
-my $sstart = '135';
-
-my $fstop = '1654';
-my $sstop = '1925';
-
-my $fexpression = '1094010';
-my $sexpression = '6956';
+foreach my $rec (@records) {
+	$sth->execute( @$rec );
+}
 
 my $fsequence = '
 CTTGCTCAGTCCACAGTTGGTGCCAGAACTCTCAATCCTCTACTGAGAGAAAATGTCCAGCCAAGTTGAA
@@ -76,7 +66,8 @@ TGTGTGGCTTTTTAATGTAATCATTATTTCTTTGGGAGTAATTCCTAGGTAAACCTAGATATCTCAAAAA
 AAAAAAAAAAGAAAAATGCCATAAAATAACATGGAAAATGTGACTGTAGATAAACATCAATCTGCTGGAT
 TTTGTCTCTAGATGTGGCACGTGAACTTAATTCCACAAAGAAAGCTATTCATACATTTATTTTAAAAATG
 CAAAAAATAAATTACTGAATAATTACCTAAAAAAA';
-my $ssequence = 'AGAGATCCCAAGCCCTCGCAGTGCCATCTGAAGGGAGGGAGATGTAAAGGAAGCTGCAGGGAGGGAAGAC
+my $ssequence = '
+AGAGATCCCAAGCCCTCGCAGTGCCATCTGAAGGGAGGGAGATGTAAAGGAAGCTGCAGGGAGGGAAGAC
 AAGGAGTGGCCAAGAGCAGTCCCTGAACACGGACGAGCATCGCTCTCGCTCAGAGCCCTGCACAATGGAA
 ATAATATTTGGCAGAAATAAGAAGGAGCAACTGGAGCCTGTGAGGGCCAGAGTAACAGGCAAGATTCCAG
 CCTGGCTGCAGGGGATCCTGCTCCGCAATGGGCCTGGGATGCACACGGTGGGCGAGACCAGATACAACCA
@@ -108,13 +99,13 @@ TTTGGCCGTGAGGACTATCCTTGACTGAGGTTAATATTACTTGGCTAATCTGGCCTACTCTAGCGCTGGT
 AGAAGTCTCGGTGCATTCCACAAAACACCGGAACTAACGTAGCCGGGGCCAAGATGATATATTATCGTGG
 CCGCCTTCTGGAAACTGCCCGGAAACCGGC';
 
-$dbh->do('INSERT INTO organism (organism_id, organism_name, tissue) VALUES (?, ?, ?)',
-	undef,
-	'1', $foname, $ftissue);
+my @srecords = ( [ '1', '1', 'RPE65', $fsequence, '1094010','53', '1654'], [ '2', '2', 'BCO1', $ssequence, '6956', '135', '1925'] );
+my $squery = "INSERT INTO gene (gene_id, organism_id, gene_name, gene_sequence, expression_level, start, stop) VALUES (?, ?, ?, ?, ?, ?, ?)";
+my $ssth = $dbh->prepare($squery);
+foreach my $srec (@srecords) {
+	$ssth->execute( @$srec );
+}
 
-$dbh->do('INSERT INTO organism (organism_id, organism_name, tissue) VALUES (?, ?, ?)',
-        undef,
-        '2', $soname, $stissue);
 
 $dbh->disconnect;
 	
