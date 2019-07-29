@@ -1,0 +1,22 @@
+
+# regex match a target string consist only one integer number
+
+/(?<!\S)\d(?!\S)/
+# Match 1, 2, 3, 4
+
+# regex match a string contain an integer or a decimal number
+
+/(?<!\S)\.?\d(?!\S)/
+# Match 1, 2, .3, .4
+
+# regex match a positive/negative integer or decimal number
+
+/(?<!\S)\-?\.?\d(?!\S)/ 
+# Match 1, .4, .8, -.6, -2
+# (?<!\S)\-?\d?\.?\d(?!\S) can give out result like -3.7, but it will also include numbers like 23, which is consist of more than one integers
+
+# regex match a postive/negative number in scientific notation
+
+/(?<!\S)\-?\d*\.?\d[Ee]\d+/
+# Match -3.5e6
+
