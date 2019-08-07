@@ -8,19 +8,21 @@ use Bio::Perl;
 print "Enter your FASTA file: ";
 my $filename = <STDIN>; 
 my $file = join '', './', $filename;
-
+# my $file = './data.fasta'
 my @bio_seq_objects = read_all_sequences($file, 'fasta');
 
 foreach my $seq (@bio_seq_objects) {
+  my $name = $seq->desc;
   my $accession = $seq->display_id;
   my $sequence = $seq->seq;
   print "
+Name: $name
 Accession number: $accession
 Sequence: $sequence
   ";
 }
 
-print "Enter names of sequences to blast, separated with a space: \n";
+print "Enter accession numbers of sequences to blast, separated with a space: \n";
 my $input = <STDIN>;
 chomp($input);
 #my $input = 'XP_641993.1';
