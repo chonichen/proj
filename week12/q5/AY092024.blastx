@@ -1,0 +1,947 @@
+BLASTX 2.9.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: NJZKMNFZ015
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           232,476,395 sequences; 83,788,530,563 total letters
+Query= AY092024
+
+Length=972
+
+
+                                                                   Score        E     Max
+Sequences producing significant alignments:                       (Bits)     Value  ident
+
+XP_018891846.1 PREDICTED: insulin isoform X2 [Gorilla gorilla ...  73.9       1e-12  100%        
+XP_008967348.1 insulin isoform X2 [Pan paniscus]                   73.9       1e-12  100%        
+XP_024110668.1 insulin isoform X3 [Pongo abelii]                   73.9       1e-12  100%        
+AKI70565.1 INS [synthetic construct]                               73.9       1e-12  86%         
+XP_024110664.1 insulin isoform X1 [Pongo abelii]                   76.3       2e-12  66%         
+PWQ88787.1 hypothetical protein DKX15_17460 [Enterococcus faec...  71.6       2e-12  100%        
+AAX84658.1 preproinsulin [Felis catus]                             72.4       3e-12  94%         
+AAM76640.1 insulin [Gorilla gorilla]                               71.6       3e-12  100%        
+AGG11869.1 HPPI [synthetic construct]                              72.4       4e-12  97%         
+XP_019292555.1 PREDICTED: insulin [Panthera pardus]                72.4       5e-12  94%         
+NP_001009272.1 insulin precursor [Felis catus]                     72.4       5e-12  94%         
+AAA72531.1 proinsulin [synthetic construct]                        71.6       5e-12  100%        
+PNJ16422.1 INS isoform 4 [Pongo abelii]                            71.6       6e-12  100%        
+AEG19452.1 insulin [Homo sapiens]                                  71.6       6e-12  100%        
+XP_008967344.1 insulin isoform X1 [Pan paniscus]                   71.6       1e-11  100%        
+NP_001008996.1 insulin preproprotein [Pan troglodytes]             71.6       1e-11  100%        
+AKI70567.1 INS [synthetic construct]                               71.6       1e-11  100%        
+XP_024110665.1 insulin isoform X2 [Pongo abelii]                   71.6       1e-11  100%        
+NP_000198.1 insulin preproprotein [Homo sapiens]                   71.6       1e-11  100%        
+AKI70566.1 INS [synthetic construct]                               71.6       1e-11  100%        
+XP_011719621.1 insulin isoform X2 [Macaca nemestrina]              71.2       1e-11  97%         
+XP_011785466.1 PREDICTED: insulin isoform X3 [Colobus angolens...  71.2       1e-11  97%         
+XP_025211016.1 insulin isoform X5 [Theropithecus gelada]           71.2       1e-11  97%         
+AAP36446.1 Homo sapiens insulin [synthetic construct]              71.6       1e-11  100%        
+AAA72172.1 synthetic preproinsulin [synthetic construct]           71.6       1e-11  100%        
+XP_008837427.1 insulin isoform X2 [Nannospalax galili]             70.9       1e-11  89%         
+2KQP_A Chain A, Insulin [Homo sapiens]                             70.5       1e-11  97%         
+AAA59179.1 insulin [Homo sapiens]                                  70.9       2e-11  83%         
+XP_025211012.1 insulin isoform X3 [Theropithecus gelada]           71.2       2e-11  97%         
+AKI70564.1 INS [synthetic construct]                               70.5       3e-11  97%         
+XP_007947471.1 PREDICTED: insulin-like [Orycteropus afer afer]     70.1       3e-11  97%         
+prf||1006230A insulin,pro- [Macaca mulatta]                        69.3       4e-11  100%        
+NP_001035835.1 insulin, isoform 2 precursor [Homo sapiens]         72.4       4e-11  63%         
+ABD93452.1 INSIGF short transcript variant [Homo sapiens]          72.4       4e-11  63%         
+XP_022363428.1 insulin [Enhydra lutris kenyoni]                    69.7       5e-11  97%         
+XP_004759728.2 PREDICTED: insulin [Mustela putorius furo]          69.7       5e-11  97%         
+XP_011785467.1 PREDICTED: insulin isoform X4 [Colobus angolens...  68.9       5e-11  97%         
+XP_003909425.1 insulin isoform X2 [Papio anubis]                   69.3       7e-11  100%        
+XP_010380355.1 PREDICTED: insulin [Rhinopithecus roxellana]        69.3       7e-11  100%        
+NP_001271848.1 insulin precursor [Macaca fascicularis]             69.3       7e-11  100%        
+XP_011785464.1 PREDICTED: insulin isoform X2 [Colobus angolens...  69.3       7e-11  100%        
+ELK28556.1 Insulin [Myotis davidii]                                68.9       7e-11  68%         
+XP_004599269.1 PREDICTED: insulin isoform X2 [Ochotona princeps]   68.9       7e-11  83%         
+XP_011785463.1 PREDICTED: insulin isoform X1 [Colobus angolens...  71.6       8e-11  62%         
+XP_016775240.1 insulin isoform X1 [Pan troglodytes]                71.6       8e-11  100%        
+XP_004599268.1 PREDICTED: insulin isoform X1 [Ochotona princeps]   68.9       8e-11  83%         
+XP_023039285.1 insulin isoform X1 [Piliocolobus tephrosceles]      68.9       9e-11  97%         
+XP_011896559.1 PREDICTED: insulin [Cercocebus atys]                68.9       9e-11  97%         
+XP_027809292.1 insulin isoform X2 [Marmota flaviventris]           68.6       9e-11  86%         
+XP_026269446.1 insulin isoform X2 [Urocitellus parryii]            68.6       9e-11  86%         
+
+ALIGNMENTS
+>XP_018891846.1 PREDICTED: insulin isoform X2 [Gorilla gorilla gorilla]
+ ABI63346.1 insulin [Homo sapiens]
+Length=98
+
+ Score = 73.9 bits (180),  Expect = 1e-12
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  63
+
+
+>XP_008967348.1 insulin isoform X2 [Pan paniscus]
+Length=98
+
+ Score = 73.9 bits (180),  Expect = 1e-12
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  63
+
+
+>XP_024110668.1 insulin isoform X3 [Pongo abelii]
+ PNJ16423.1 INS isoform 5 [Pongo abelii]
+Length=98
+
+ Score = 73.9 bits (180),  Expect = 1e-12
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  63
+
+
+>AKI70565.1 INS, partial [synthetic construct]
+Length=110
+
+ Score = 73.9 bits (180),  Expect = 1e-12
+ Identities = 36/42 (86%), Positives = 36/42 (86%), Gaps = 0/42 (0%)
+ Frame = +1
+
+Query  847  TCSARHALTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            TC     L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  54   TCREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+>XP_024110664.1 insulin isoform X1 [Pongo abelii]
+Length=203
+
+ Score = 76.3 bits (186),  Expect = 2e-12
+ Identities = 38/58 (66%), Positives = 41/58 (71%), Gaps = 2/58 (3%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEPTAPCCPWS--PPAIPCFCRSHPA  169
+            CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ    +P    S  P  +    R+ PA
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALSPSSSTSTWPEGLDATARAPPA  88
+
+
+>PWQ88787.1 hypothetical protein DKX15_17460, partial [Enterococcus faecium]
+Length=54
+
+ Score = 71.6 bits (174),  Expect = 2e-12
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  17  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  48
+
+
+>AAX84658.1 preproinsulin, partial [Felis catus]
+Length=86
+
+ Score = 72.4 bits (176),  Expect = 3e-12
+ Identities = 32/34 (94%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGE  103
+            CGSHLVEALYLVCGERGFFYTPK RREAEDLQG+
+Sbjct  7    CGSHLVEALYLVCGERGFFYTPKARREAEDLQGK  40
+
+
+>AAM76640.1 insulin, partial [Gorilla gorilla]
+ AAM76641.1 insulin, partial [Pongo pygmaeus]
+Length=65
+
+ Score = 71.6 bits (174),  Expect = 3e-12
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  1   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  32
+
+
+ Score = 70.5 bits (171),  Expect = 8e-12
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  31   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  65
+
+
+>AGG11869.1 HPPI [synthetic construct]
+Length=97
+
+ Score = 72.4 bits (176),  Expect = 4e-12
+ Identities = 33/34 (97%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGE  103
+            CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ E
+Sbjct  18   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQVE  51
+
+
+>XP_019292555.1 PREDICTED: insulin [Panthera pardus]
+ XP_026901706.1 insulin [Acinonyx jubatus]
+ XP_030187244.1 insulin [Lynx canadensis]
+Length=110
+
+ Score = 72.4 bits (176),  Expect = 5e-12
+ Identities = 32/34 (94%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGE  103
+            CGSHLVEALYLVCGERGFFYTPK RREAEDLQG+
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKARREAEDLQGK  64
+
+
+>NP_001009272.1 insulin precursor [Felis catus]
+ XP_019666739.1 insulin isoform X1 [Felis catus]
+ P06306.2 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Felis catus]
+ BAB84110.1 preproinsulin [Felis catus]
+Length=110
+
+ Score = 72.4 bits (176),  Expect = 5e-12
+ Identities = 32/34 (94%), Positives = 33/34 (97%), Gaps = 0/34 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGE  103
+            CGSHLVEALYLVCGERGFFYTPK RREAEDLQG+
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKARREAEDLQGK  64
+
+
+>AAA72531.1 proinsulin [synthetic construct]
+ BAH59081.1 human M-proinsulin [synthetic construct]
+ CAA23424.1 unnamed protein product [synthetic construct]
+Length=87
+
+ Score = 71.6 bits (174),  Expect = 5e-12
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  8   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  39
+
+
+ Score = 70.5 bits (171),  Expect = 1e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  38   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  72
+
+
+>PNJ16422.1 INS isoform 4, partial [Pongo abelii]
+Length=92
+
+ Score = 71.6 bits (174),  Expect = 6e-12
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+>AEG19452.1 insulin, partial [Homo sapiens]
+Length=94
+
+ Score = 71.6 bits (174),  Expect = 6e-12
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  15  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  46
+
+
+ Score = 70.5 bits (171),  Expect = 2e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  45   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  79
+
+
+>XP_008967344.1 insulin isoform X1 [Pan paniscus]
+ XP_008967345.1 insulin isoform X1 [Pan paniscus]
+ XP_008967347.1 insulin isoform X1 [Pan paniscus]
+Length=110
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  61   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+>NP_001008996.1 insulin preproprotein [Pan troglodytes]
+ P30410.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Pan troglodytes]
+ AAN06933.1 insulin precursor [Pan troglodytes]
+ CAA43403.1 Preproinsulin [Pan troglodytes]
+Length=110
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  61   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+>AKI70567.1 INS, partial [synthetic construct]
+Length=110
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+>XP_024110665.1 insulin isoform X2 [Pongo abelii]
+ XP_024110666.1 insulin isoform X2 [Pongo abelii]
+ XP_024110667.1 insulin isoform X2 [Pongo abelii]
+ Q8HXV2.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Pongo pygmaeus]
+ AAN06937.1 insulin precursor [Pongo pygmaeus]
+ PNJ16419.1 INS isoform 1 [Pongo abelii]
+ PNJ16420.1 INS isoform 2 [Pongo abelii]
+ PNJ16421.1 INS isoform 3 [Pongo abelii]
+Length=110
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  61   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+>NP_000198.1 insulin preproprotein [Homo sapiens]
+ NP_001172026.1 insulin preproprotein [Homo sapiens]
+ NP_001172027.1 insulin preproprotein [Homo sapiens]
+ NP_001278826.1 insulin preproprotein [Homo sapiens]
+ XP_004050475.1 PREDICTED: insulin isoform X1 [Gorilla gorilla gorilla]
+ XP_004050476.1 PREDICTED: insulin isoform X1 [Gorilla gorilla gorilla]
+ XP_018891845.1 PREDICTED: insulin isoform X1 [Gorilla gorilla gorilla]
+ P01308.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Homo sapiens]
+ Q6YK33.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Gorilla gorilla gorilla]
+ 6B3Q_a Chain a, Insulin [Homo sapiens]
+ 6B3Q_b Chain b, Insulin [Homo sapiens]
+ 6B70_a Chain a, Insulin [Homo sapiens]
+ 6B70_c Chain c, Insulin [Homo sapiens]
+ 6BFC_a Chain a, Insulin [Homo sapiens]
+ 6BFC_b Chain b, Insulin [Homo sapiens]
+ AAN06935.1 insulin precursor [Gorilla gorilla]
+ AAX42025.1 insulin [synthetic construct]
+ SJX25028.1 unnamed protein product, partial [Human ORFeome Gateway entry 
+vector]
+ AAA59172.1 insulin [Homo sapiens]
+ AAA59173.1 insulin [Homo sapiens]
+Length=110
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  61   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+>AKI70566.1 INS, partial [synthetic construct]
+Length=110
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+>XP_011719621.1 insulin isoform X2 [Macaca nemestrina]
+ XP_012352084.1 PREDICTED: insulin isoform X3 [Nomascus leucogenys]
+Length=98
+
+ Score = 71.2 bits (173),  Expect = 1e-11
+ Identities = 32/33 (97%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAED QG
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQG  63
+
+
+>XP_011785466.1 PREDICTED: insulin isoform X3 [Colobus angolensis palliatus]
+ XP_011843618.1 PREDICTED: insulin isoform X2 [Mandrillus leucophaeus]
+ XP_017743300.1 PREDICTED: insulin isoform X3 [Rhinopithecus bieti]
+ XP_023039288.1 insulin isoform X3 [Piliocolobus tephrosceles]
+Length=98
+
+ Score = 71.2 bits (173),  Expect = 1e-11
+ Identities = 32/33 (97%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAED QG
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQG  63
+
+
+>XP_025211016.1 insulin isoform X5 [Theropithecus gelada]
+Length=98
+
+ Score = 71.2 bits (173),  Expect = 1e-11
+ Identities = 32/33 (97%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAED QG
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQG  63
+
+
+>AAP36446.1 Homo sapiens insulin, partial [synthetic construct]
+ AAX29480.1 insulin, partial [synthetic construct]
+ AAX29481.1 insulin, partial [synthetic construct]
+Length=111
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  62
+
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  61   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+>AAA72172.1 synthetic preproinsulin [synthetic construct]
+Length=114
+
+ Score = 71.6 bits (174),  Expect = 1e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  35  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  66
+
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  65   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  99
+
+
+>XP_008837427.1 insulin isoform X2 [Nannospalax galili]
+Length=98
+
+ Score = 70.9 bits (172),  Expect = 1e-11
+ Identities = 31/35 (89%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP  106
+            CGSHLVEALYLVCGERGFFYTPK+RRE ED QG P
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKSRREVEDPQGSP  65
+
+
+>2KQP_A Chain A, Insulin [Homo sapiens]
+Length=86
+
+ Score = 70.5 bits (171),  Expect = 1e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  37   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  71
+
+
+>AAA59179.1 insulin [Homo sapiens]
+Length=107
+
+ Score = 70.9 bits (172),  Expect = 2e-11
+ Identities = 35/42 (83%), Positives = 35/42 (83%), Gaps = 0/42 (0%)
+ Frame = +1
+
+Query  847  TCSARHALTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            T   R    VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  51   TPKTRREAEVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  92
+
+
+>XP_025211012.1 insulin isoform X3 [Theropithecus gelada]
+Length=135
+
+ Score = 71.2 bits (173),  Expect = 2e-11
+ Identities = 32/33 (97%), Positives = 32/33 (97%), Gaps = 0/33 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQG  100
+           CGSHLVEALYLVCGERGFFYTPKTRREAED QG
+Sbjct  68  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQG  100
+
+
+>AKI70564.1 INS, partial [synthetic construct]
+Length=110
+
+ Score = 70.5 bits (171),  Expect = 3e-11
+ Identities = 34/35 (97%), Positives = 34/35 (97%), Gaps = 0/35 (0%)
+ Frame = +1
+
+Query  868  LTVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            L VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  61   LQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+ Score = 69.3 bits (168),  Expect = 7e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERG FYTPKTRREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGLFYTPKTRREAEDLQ  62
+
+
+>XP_007947471.1 PREDICTED: insulin-like [Orycteropus afer afer]
+Length=104
+
+ Score = 70.1 bits (170),  Expect = 3e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRRE EDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRRETEDLQ  62
+
+
+>prf||1006230A insulin,pro- [Macaca mulatta]
+Length=86
+
+ Score = 69.3 bits (168),  Expect = 4e-11
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  874  VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  39   VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  71
+
+
+ Score = 68.9 bits (167),  Expect = 5e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  7   CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  38
+
+
+>NP_001035835.1 insulin, isoform 2 precursor [Homo sapiens]
+ F8WCM5.1 RecName: Full=Insulin, isoform 2; AltName: Full=INS-IGF2 readthrough 
+transcript protein [Homo sapiens]
+ AAI48489.1 INS-IGF2 readthrough transcript, partial [synthetic construct]
+ AAI53084.1 INS-IGF2 readthrough transcript [synthetic construct]
+Length=200
+
+ Score = 72.4 bits (176),  Expect = 4e-11
+ Identities = 37/59 (63%), Positives = 41/59 (69%), Gaps = 4/59 (7%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP---TAPCCPWSPPAIPCFCRSHPA  169
+            CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ      ++    W P  +    R+ PA
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALSLSSSTSTW-PEGLDATARAPPA  88
+
+
+>ABD93452.1 INSIGF short transcript variant [Homo sapiens]
+ ABD93453.1 INSIGF long transcript variant [Homo sapiens]
+Length=200
+
+ Score = 72.4 bits (176),  Expect = 4e-11
+ Identities = 37/59 (63%), Positives = 41/59 (69%), Gaps = 4/59 (7%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP---TAPCCPWSPPAIPCFCRSHPA  169
+            CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ      ++    W P  +    R+ PA
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALSLSSSTSTW-PEGLDATARAPPA  88
+
+
+>XP_022363428.1 insulin [Enhydra lutris kenyoni]
+Length=109
+
+ Score = 69.7 bits (169),  Expect = 5e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPK RREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKARREAEDLQ  62
+
+
+>XP_004759728.2 PREDICTED: insulin [Mustela putorius furo]
+ XP_012915491.1 PREDICTED: insulin [Mustela putorius furo]
+Length=109
+
+ Score = 69.7 bits (169),  Expect = 5e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPK RREAEDLQ
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKARREAEDLQ  62
+
+
+>XP_011785467.1 PREDICTED: insulin isoform X4 [Colobus angolensis palliatus]
+ XP_011785468.1 PREDICTED: insulin isoform X4 [Colobus angolensis palliatus]
+Length=89
+
+ Score = 68.9 bits (167),  Expect = 5e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>XP_003909425.1 insulin isoform X2 [Papio anubis]
+ XP_009183614.1 insulin isoform X2 [Papio anubis]
+ XP_025211013.1 insulin isoform X4 [Theropithecus gelada]
+ XP_025211014.1 insulin isoform X4 [Theropithecus gelada]
+ XP_025211015.1 insulin isoform X4 [Theropithecus gelada]
+Length=110
+
+ Score = 69.3 bits (168),  Expect = 7e-11
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  874  VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  63   VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+ Score = 68.9 bits (167),  Expect = 9e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>XP_010380355.1 PREDICTED: insulin [Rhinopithecus roxellana]
+Length=110
+
+ Score = 69.3 bits (168),  Expect = 7e-11
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  874  VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  63   VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+ Score = 68.9 bits (167),  Expect = 9e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>NP_001271848.1 insulin precursor [Macaca fascicularis]
+ XP_003281399.1 PREDICTED: insulin isoform X2 [Nomascus leucogenys]
+ XP_004087913.1 PREDICTED: insulin isoform X2 [Nomascus leucogenys]
+ XP_011719618.1 insulin isoform X1 [Macaca nemestrina]
+ XP_011719619.1 insulin isoform X1 [Macaca nemestrina]
+ XP_011719620.1 insulin isoform X1 [Macaca nemestrina]
+ XP_012352077.1 PREDICTED: insulin isoform X2 [Nomascus leucogenys]
+ XP_015289666.1 PREDICTED: insulin isoform X1 [Macaca fascicularis]
+ XP_028688882.1 insulin [Macaca mulatta]
+ P30406.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Macaca fascicularis]
+ AAA36849.1 preproinsulin [Macaca fascicularis]
+Length=110
+
+ Score = 69.3 bits (168),  Expect = 7e-11
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  874  VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  63   VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+ Score = 68.9 bits (167),  Expect = 9e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>XP_011785464.1 PREDICTED: insulin isoform X2 [Colobus angolensis palliatus]
+ XP_011785465.1 PREDICTED: insulin isoform X2 [Colobus angolensis palliatus]
+ XP_011843615.1 PREDICTED: insulin isoform X1 [Mandrillus leucophaeus]
+ XP_011843616.1 PREDICTED: insulin isoform X1 [Mandrillus leucophaeus]
+ XP_011843617.1 PREDICTED: insulin isoform X1 [Mandrillus leucophaeus]
+ XP_017743276.1 PREDICTED: insulin isoform X1 [Rhinopithecus bieti]
+ XP_017743284.1 PREDICTED: insulin isoform X1 [Rhinopithecus bieti]
+ XP_017743293.1 PREDICTED: insulin isoform X1 [Rhinopithecus bieti]
+ P30407.1 RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; 
+Contains: RecName: Full=Insulin A chain; Flags: Precursor 
+[Chlorocebus aethiops]
+ CAA43405.1 Preproinsulin [Chlorocebus aethiops]
+Length=110
+
+ Score = 69.3 bits (168),  Expect = 7e-11
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +1
+
+Query  874  VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  972
+            VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC
+Sbjct  63   VGQVELGGGPGAGSLQPLALEGSLQKRGIVEQC  95
+
+
+ Score = 68.9 bits (167),  Expect = 9e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>ELK28556.1 Insulin [Myotis davidii]
+Length=101
+
+ Score = 68.9 bits (167),  Expect = 7e-11
+ Identities = 32/47 (68%), Positives = 34/47 (72%), Gaps = 0/47 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEPTAPCCPWSPPAI  142
+            CGSHLVEALYLVCGERGFFYTPK RRE  D Q   TA    W+P  +
+Sbjct  46   CGSHLVEALYLVCGERGFFYTPKDRRELPDPQEVLTAKAGSWAPSTL  92
+
+
+>XP_004599269.1 PREDICTED: insulin isoform X2 [Ochotona princeps]
+Length=101
+
+ Score = 68.9 bits (167),  Expect = 7e-11
+ Identities = 29/35 (83%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP  106
+            CGSHLVEALYLVCGERGFFY PK RR+ ++LQGEP
+Sbjct  31   CGSHLVEALYLVCGERGFFYMPKARRDVDELQGEP  65
+
+
+>XP_011785463.1 PREDICTED: insulin isoform X1 [Colobus angolensis palliatus]
+Length=204
+
+ Score = 71.6 bits (174),  Expect = 8e-11
+ Identities = 37/60 (62%), Positives = 40/60 (67%), Gaps = 5/60 (8%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEPTAP----CCPWSPPAIPCFCRSHPA  169
+            CGSHLVEALYLVCGERGFFYTPKTRREAED Q    +P       W P  +    R+ PA
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKTRREAEDPQASALSPSSSSTSTW-PEGLDATARTPPA  89
+
+
+>XP_016775240.1 insulin isoform X1 [Pan troglodytes]
+Length=204
+
+ Score = 71.6 bits (174),  Expect = 8e-11
+ Identities = 32/32 (100%), Positives = 32/32 (100%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+            CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ
+Sbjct  125  CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  156
+
+
+>XP_004599268.1 PREDICTED: insulin isoform X1 [Ochotona princeps]
+Length=104
+
+ Score = 68.9 bits (167),  Expect = 8e-11
+ Identities = 29/35 (83%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP  106
+            CGSHLVEALYLVCGERGFFY PK RR+ ++LQGEP
+Sbjct  31   CGSHLVEALYLVCGERGFFYMPKARRDVDELQGEP  65
+
+
+>XP_023039285.1 insulin isoform X1 [Piliocolobus tephrosceles]
+ XP_023039286.1 insulin isoform X1 [Piliocolobus tephrosceles]
+Length=110
+
+ Score = 68.9 bits (167),  Expect = 9e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>XP_011896559.1 PREDICTED: insulin [Cercocebus atys]
+ XP_011896561.1 PREDICTED: insulin [Cercocebus atys]
+ XP_011896562.1 PREDICTED: insulin [Cercocebus atys]
+Length=110
+
+ Score = 68.9 bits (167),  Expect = 9e-11
+ Identities = 31/32 (97%), Positives = 31/32 (97%), Gaps = 0/32 (0%)
+ Frame = +2
+
+Query  2   CGSHLVEALYLVCGERGFFYTPKTRREAEDLQ  97
+           CGSHLVEALYLVCGERGFFYTPKTRREAED Q
+Sbjct  31  CGSHLVEALYLVCGERGFFYTPKTRREAEDPQ  62
+
+
+>XP_027809292.1 insulin isoform X2 [Marmota flaviventris]
+Length=98
+
+ Score = 68.6 bits (166),  Expect = 9e-11
+ Identities = 30/35 (86%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP  106
+            CGSHLVEALYLVCGERGFFYTPK+RRE E+ QG P
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKSRREVEEQQGLP  65
+
+
+>XP_026269446.1 insulin isoform X2 [Urocitellus parryii]
+Length=98
+
+ Score = 68.6 bits (166),  Expect = 9e-11
+ Identities = 30/35 (86%), Positives = 32/35 (91%), Gaps = 0/35 (0%)
+ Frame = +2
+
+Query  2    CGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEP  106
+            CGSHLVEALYLVCGERGFFYTPK+RRE E+ QG P
+Sbjct  31   CGSHLVEALYLVCGERGFFYTPKSRREVEEQQGLP  65
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Aug 13, 2019  12:42 AM
+  Number of letters in database: 83,788,530,563
+  Number of sequences in database:  232,476,395
+
+Lambda      K        H
+   0.318    0.134    0.401 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 232476395
+Number of Hits to DB: 3068852930
+Number of extensions: 82310545
+Number of successful extensions: 317099
+Number of sequences better than 1e-10: 0
+Number of HSP's better than 1e-10 without gapping: 0
+Number of HSP's gapped: 314896
+Number of HSP's successfully gapped: 0
+Length of query: 972
+Length of database: 83788530563
+Length adjustment: 158
+Effective length of query: 814
+Effective length of database: 47057260153
+Effective search space: 7811505185398
+Effective search space used: 7811505185398
+T: 12
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 186 (76.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
